@@ -25,6 +25,7 @@ async function run() {
       // Update the fill color
       range.format.fill.color = "yellow";
 
+      range.formulas = [[`=SUM(1,2) & CONTOSO.ADD(1,2)`]];
       await context.sync();
       console.log(`The range address was ${range.address}.`);
     });

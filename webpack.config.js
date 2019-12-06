@@ -63,6 +63,14 @@ module.exports = async (env, options) => {
         {
           to: "taskpane.css",
           from: "./src/taskpane/taskpane.css"
+        },
+        {
+          to: "functions-en.json",
+          from: "./src/functions/functions.json"
+        },
+        {
+          to: "functions-de.json",
+          from: "./src/functions/functions-de.json"
         }
       ]),
       new HtmlWebpackPlugin({

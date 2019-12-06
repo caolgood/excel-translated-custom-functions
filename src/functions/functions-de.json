@@ -1,0 +1,69 @@
+{
+    "functions": [
+        {
+            "description": "Adds two numbers.",
+            "id": "ADD",
+            "name": "DE.ADD",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "DE.first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "DE.second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Displays the current time once a second.",
+            "id": "CLOCK",
+            "name": "DE.CLOCK",
+            "options": {
+                "stream": true
+            },
+            "parameters": [],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Increments a value once a second.",
+            "id": "INCREMENT",
+            "name": "DE.INCREMENT",
+            "options": {
+                "stream": true
+            },
+            "parameters": [
+                {
+                    "description": "Amount to increment",
+                    "name": "DE.incrementBy",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Writes a message to console.log().",
+            "id": "LOG",
+            "name": "DE.LOG",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "DE.message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        }
+    ]
+}
